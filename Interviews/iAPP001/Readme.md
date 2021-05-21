@@ -2,7 +2,7 @@ This challenge was about making a string that would only accept N repetitions of
 
 Down here you can find some examples and full challenge description in spanish.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Consigna
 Escribí una función que reciba dos parámetros: un string S y un integer R.
 
