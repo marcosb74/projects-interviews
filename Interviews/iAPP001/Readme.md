@@ -4,6 +4,8 @@ Down here you can find some examples and full challenge description in spanish.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Consigna
+
+
 Escribí una función que reciba dos parámetros: un string S y un integer R.
 
 La función debe devolver un string donde los caracteres consecutivos de S no se repitan más que R veces.
