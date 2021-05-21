@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tareas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">Lista de tareas</a>
+      </div>
+    </nav>
+    <div class="container">
+      <form id="add-task-form">
+        <input type="text" name="titulo" placeholder="agregar tarea" />
+        <button class="waves-effect waves-light btn">Add!</button>
+      </form>
+
+      <ul class="collection" id="lista-tareas">
+
+      </ul>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Actualizar</h4>
+      <input type="text" name="newTitle" placeholder="Actualizar tarea">
+    </div>
+    <div class="modal-footer">
+      <a href="#!" id="updateBtn" class="modal-close waves-effect waves-green btn-flat">Actualizar</a>
+    </div>
+  </div>
+</div>   
+    </div>
+    <script>   document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.modal');
+        var instances = M.Modal.init(elems);
+      });
+    </script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAmjYbhiOEVGX7lk3y6IUgzKV6wqWDMvAU",
+        authDomain: "listadetareas-800bb.firebaseapp.com",
+        projectId: "listadetareas-800bb",
+        storageBucket: "listadetareas-800bb.appspot.com",
+        messagingSenderId: "1048680055459",
+        appId: "1:1048680055459:web:9e59cb0f3089daefa53516"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    var db = firebase.firestore();
+
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
