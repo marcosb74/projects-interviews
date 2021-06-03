@@ -1,4 +1,4 @@
-In this proyect i've developed a webapp that allows the user to input their currency (USD,ARS,MXN,ETC) and
+In this project i've developed a webapp that allows the user to input their currency (USD,ARS,MXN,ETC) and
 
 a cryptocurrency (BTC,DOGE,ETH)
 
