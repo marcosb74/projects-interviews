@@ -1,4 +1,4 @@
-In this proyect, i've developed a webapp that allows you to specify what type of car you own and what year it was fabricated.
+In this project, i've developed a webapp that allows you to specify what type of car you own and what year it was fabricated.
 
 After you specify that info, it will give you an estimate price on how much it cost to insure that car.
 
