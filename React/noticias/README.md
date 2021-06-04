@@ -1,4 +1,4 @@
-In this project, i developed a webapp that shows news from Argentina.
+In this project, i've developed a webapp that shows news from Argentina.
 
 The user can select different categories, for example; health,technology,sports,etc.
 
