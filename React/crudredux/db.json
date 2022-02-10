@@ -1,0 +1,54 @@
+{
+  "productos": [
+    {
+      "nombre": "Jugo de Naranja",
+      "precio": "567",
+      "id": 3
+    },
+    {
+      "nombre": "Rib Eye 800g",
+      "precio": "200",
+      "id": 4
+    },
+    {
+      "nombre": "Jugo de Fresa",
+      "precio": "200",
+      "id": 5
+    },
+    {
+      "nombre": "Caramelos",
+      "precio": 194,
+      "id": 6
+    },
+    {
+      "nombre": "Jugo de caramelo",
+      "precio": 190,
+      "id": 8
+    },
+    {
+      "nombre": "Jugo de azucar",
+      "precio": 140,
+      "id": 9
+    },
+    {
+      "nombre": "Nuevo1",
+      "precio": 10,
+      "id": 11
+    },
+    {
+      "nombre": "Nuevo11",
+      "precio": 10,
+      "id": 12
+    },
+    {
+      "nombre": "NuevoLimpio",
+      "precio": 25,
+      "id": 13
+    },
+    {
+      "nombre": "asdasd",
+      "precio": 1111,
+      "id": 14
+    }
+  ]
+}
